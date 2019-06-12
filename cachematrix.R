@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function, it retrives the cached inverse of the matrix, if the inverse
+## Write a comment describing this function, it retrives the cached inverse of the matrix, if the inverse
 ## is not cached then it calculated and set so that it can be cached for future retreival
 
 cacheSolve <- function(x, ...) {
